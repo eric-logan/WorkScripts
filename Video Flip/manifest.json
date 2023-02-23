@@ -1,0 +1,17 @@
+{
+  "name": "Video Flip",
+  "description": "Flips camera vertically and mirrors it for client in Google Meets",
+  "permissions": ["activeTab", "storage", "tabs"],
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "content_scripts": [
+  {
+    "matches": ["http://meet.google.com/*", "https://meet.google.com/*"],
+    "js": ["contentScript.js"]
+  }
+  ]
+}
