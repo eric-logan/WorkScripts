@@ -1,2 +1,2 @@
 # WorkScripts
-A compilations of scripts I wrote at work.
+A compilation of scripts I wrote at work.
